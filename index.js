@@ -6,7 +6,7 @@ const app = express();
 nunjucks.configure('views', {
    autoescape: true,
    express: app,
-   watch: true 
+   watch: true
 });
 
 app.use(express.urlencoded({extended: false}));
